@@ -16,4 +16,7 @@ autoload -U +X compinit && compinit
 
 eval "$(register-python-argcomplete pipx)"
 
+ssh-add --apple-load-keychain
+
+# disable flow control
 stty -ixon -ixany
