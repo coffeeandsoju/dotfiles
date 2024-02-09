@@ -1,3 +1,9 @@
+call plug#begin()
+
+Plug 'tpope/vim-commentary'
+
+call plug#end()
+
 set encoding=utf-8
 
 syntax on
@@ -21,3 +27,7 @@ set list
 colorscheme onedark
 set background=dark
 set termguicolors
+
+" no more .netrwhist files
+let g:netrw_dirhistmax=0
+
