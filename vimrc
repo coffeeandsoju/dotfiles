@@ -8,6 +8,8 @@ set encoding=utf-8
 
 syntax on
 
+set noswapfile
+
 set number
 set mouse=a
 
